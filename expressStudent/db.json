@@ -1,0 +1,6 @@
+{
+  "students": [
+    { "id": 1, "name": "Diya Patel", "course": "Data Science", "batch": "June 2025" },
+    { "id": 2, "name": "Rohan Mehta", "course": "Cyber Security", "batch": "May 2025" }
+  ]
+}
