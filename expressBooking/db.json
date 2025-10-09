@@ -1,0 +1,10 @@
+{
+  "books": [
+    { "id": 1, "title": "Wings of Fire", "author": "A. P. J. Abdul Kalam", "year": 1999 },
+    { "id": 2, "title": "The Secret Garden", "author": "Frances Hodgson Burnett", "year": 1911 },
+    { "id": 3, "title": "Think Like a Monk", "author": "Jay Shetty", "year": 2020 },
+    { "id": 4, "title": "The Power of Now", "author": "Eckhart Tolle", "year": 1997 },
+    { "id": 5, "title": "Atomic Habits", "author": "James Clear", "year": 2018 },
+    { "id": 6, "title": "The Book Thief", "author": "Markus Zusak", "year": 2005 }
+  ]
+}
