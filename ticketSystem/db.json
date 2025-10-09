@@ -1,0 +1,28 @@
+{
+  "tickets": [
+    {
+      "id": 1753980456210,
+      "title": "Payment Failure",
+      "description": "Transaction not completed after payment",
+      "priority": "medium",
+      "user": "Alice Johnson",
+      "status": "open"
+    },
+    {
+      "id": 1753980456211,
+      "title": "Page Not Loading",
+      "description": "Dashboard page stuck on loading screen",
+      "priority": "high",
+      "user": "Rahul Verma",
+      "status": "in progress"
+    },
+    {
+      "id": 1753980456212,
+      "title": "Feature Request",
+      "description": "Add dark mode option in settings",
+      "priority": "low",
+      "user": "Sneha Patel",
+      "status": "resolved"
+    }
+  ]
+}
