@@ -1,0 +1,7 @@
+{
+  "dishes": [
+    { "id": 1, "name": "Pongal", "price": 60, "category": "BreakFast" },
+    { "id": 2, "name": "Biriyani", "price": 120, "category": "Lunch" },
+    { "id": 3, "name": "Chapathi", "price": 90, "category": "Dinner" }
+  ]
+}
