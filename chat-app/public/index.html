@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Group Chat App</title>
+  <style>
+    body { font-family: Arial; background: #f4f4f4; margin: 0; }
+    #chat-container { width: 500px; margin: 50px auto; background: white; padding: 20px; border-radius: 10px; }
+    #messages { height: 250px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+    #online-users { font-size: 0.9em; color: #555; margin-bottom: 10px; }
+    input, button { padding: 10px; }
+    #message-input { width: 70%; }
+    #disconnectBtn { background: red; color: white; border: none; border-radius: 5px; padding: 8px 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div id="chat-container">
+    <h2>Group Chat</h2>
+    <div id="online-users">Online: None</div>
+    <div id="messages"></div>
+    <input id="message-input" type="text" placeholder="Type message..." />
+    <button id="sendBtn">Send</button>
+    <button id="adminBtn">Admin Msg</button>
+    <button id="disconnectBtn">Disconnect</button>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
