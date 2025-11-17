@@ -15,6 +15,7 @@ function fetchSystemDetails() {
   console.log("Heap Used (MB):", (process.memoryUsage().heapUsed / (1024 ** 2)).toFixed(2));
   console.log("Heap Total (MB):", (process.memoryUsage().heapTotal / (1024 ** 2)).toFixed(2));
   console.log("=======================");
+  
 }
 
 module.exports = fetchSystemDetails;
