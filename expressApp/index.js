@@ -20,7 +20,7 @@ app.get("/readfile", async (req, res) => {
 });
 
 app.get("/systemdetails", (req, res) => {
-  const platform = os.platform(); // e.g., 'linux', 'win32', 'darwin'
+  const platform = os.platform(); 
   const totalMemoryGB = (os.totalmem() / (1024 ** 3)).toFixed(2) + " GB";
   const freeMemoryGB = (os.freemem() / (1024 ** 3)).toFixed(2) + " GB";
   const cpus = os.cpus();
