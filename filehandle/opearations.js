@@ -6,7 +6,6 @@ function readDataFromFile() {
 		console.log(content);
 	});
 }
-
 function addDataToFile() {
 	fileSystem.appendFile("./data.txt", "This is appended content", (error) => {
 		if (error) console.log(error);
