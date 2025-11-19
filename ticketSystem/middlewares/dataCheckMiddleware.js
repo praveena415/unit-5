@@ -7,5 +7,4 @@ function dataCheckMiddleware(req, res, next) {
   }
   next();
 }
-
 module.exports = dataCheckMiddleware;

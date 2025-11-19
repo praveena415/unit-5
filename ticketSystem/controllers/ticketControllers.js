@@ -4,7 +4,6 @@ function getAllTickets(req, res) {
   const tickets = readTickets();
   res.json(tickets);
 }
-
 function getTicketById(req, res) {
   const { id } = req.params;
   const tickets = readTickets();

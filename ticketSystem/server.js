@@ -3,7 +3,6 @@ const app = express();
 const ticketRoutes = require("./routes/ticketRoutes");
 
 app.use(express.json());
-
 app.use("/tickets", ticketRoutes);
 
 app.use((req, res) => {

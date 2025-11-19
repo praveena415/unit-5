@@ -8,7 +8,6 @@ const {
   deleteTicket,
   resolveTicket
 } = require("../controllers/ticketController");
-
 const dataCheckMiddleware = require("../middlewares/dataCheckMiddleware");
 
 router.get("/", getAllTickets);
