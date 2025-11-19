@@ -7,7 +7,6 @@ const getData =()=>{
 	let data = JSON.parse(fs.readFileSync("./db.json","utf-8"));
 	return data;
 }
-
 app.get("/test",(req,res)=>{
 	res.status(200).json({"msg":"Test Route is working!!"});
 })
