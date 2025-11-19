@@ -6,7 +6,6 @@ app.get("/test",(req,res)=>{
 	res.status(200).json({msg:"App is working"})
 })
 
-
 app.get("/users/get", (req, res) => {
   res.status(200).json({ "id": 1, "name": "a", "email": "aaaa@example.com" });
 });
