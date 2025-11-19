@@ -4,7 +4,6 @@ app.use(express.json());
 const todoRoutes = require("./routes/todoRouter");
 
 app.use("/todos",todoRoutes);
-
 app.get("/test",(req,res)=>{
 	res.status(200).json({"msg":"App is working on test"});
 })

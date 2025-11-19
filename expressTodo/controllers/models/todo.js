@@ -4,7 +4,6 @@ const { getData, addorUpdateData } = require("../models/todoModel.js");
 	let data = getData();
 	let todos =  getData().todos;
 res.status(200).json({"msg":"Data is heere",todos});
-
  }
 
 const addTask = (req,res)=>{

@@ -1,7 +1,6 @@
 const express = require("express");
 const fs = require("fs");
 const { getAllTodos, addTask, updateTask, deleteTask, searchTitle } = require("../controllers/todo");
-
 const todoRoutes = express.Router();
 
 todoRoutes.get("/all-todos",getAllTodos);
