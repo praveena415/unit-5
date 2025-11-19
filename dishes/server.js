@@ -14,7 +14,6 @@ app.get("/getAllDishes",(req,res)=>{
 	console.log(items);
 })
 
-
 app.post("/addDish",(req,res)=>{
 	let dat = req.body;
 	let data = JSON.parse(fs.readFileSync("./db.json","utf-8"))
