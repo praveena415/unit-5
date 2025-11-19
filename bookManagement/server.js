@@ -4,7 +4,6 @@ const app = express();
 const loggerMiddleware = require("./middlewares/loggerMiddleware");
 const adminRoutes = require("./routes/adminRoutes");
 const readerRoutes = require("./routes/readerRoutes");
-
 app.use(express.json());
 app.use(loggerMiddleware);
 

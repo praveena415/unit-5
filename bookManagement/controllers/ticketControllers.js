@@ -5,7 +5,6 @@ function addBook(req, res) {
   if (!title || !author || !genre || !publishedYear) {
     return res.status(400).json({ error: "All fields are required." });
   }
-
   const books = readBooks();
   const newBook = {
     id: Date.now(),

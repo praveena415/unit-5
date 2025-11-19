@@ -3,5 +3,4 @@ function loggerMiddleware(req, res, next) {
   console.log(`[${time}] ${req.method} ${req.originalUrl}`);
   next();
 }
-
 module.exports = loggerMiddleware;

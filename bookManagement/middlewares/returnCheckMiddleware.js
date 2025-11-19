@@ -7,7 +7,6 @@ function returnCheckMiddleware(req, res, next) {
   if (!book || !book.borrowedDate) {
     return res.status(404).json({ error: "Book not found or not borrowed" });
   }
-
   const borrowedDate = new Date(book.borrowedDate);
   const currentDate = new Date();
   const diffDays = Math.floor((currentDate - borrowedDate) / (1000 * 60 * 60 * 24));
