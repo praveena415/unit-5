@@ -15,7 +15,6 @@ app.get("/getAllStudents",(req,res)=>{
 
 	let data = getData();
 	res.status(200).json({"msg":"Students data is here..","Data":data});
-
 })
 
 app.post("/addStudent",(req,res)=>{
